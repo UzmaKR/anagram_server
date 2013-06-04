@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Names of anagrams for <%= @word %>:</h1>
+  <p><% @array_of_anagrams.each do |anagram| %> 
+     <%=    anagram.name + " " %>
+     <% end %>
+  </p>
+
+</div>
